@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS_Vertiefungen</title>
+  </head>
+  <body>
+    <!-- Conditionals-Level-1_1 -->
+    <form onsubmit="return false">
+      <input type="number" placeholder="alter" />
+      <button onclick="adult()">Prüfen!</button>
+      <p class="result"></p>
+    </form>
+    <!-- Conditionals-Level-1_2 -->
+    <form onsubmit="return false">
+      <h1>Wetter Qualität</h1>
+      <input
+        type="number"
+        min="0"
+        max="10"
+        style="width: 10%"
+        placeholder="Zahl eingeben"
+      />
+      <button onclick="weather()">Senden</button>
+      <p class="result2"></p>
+    </form>
+    <!-- Conditionals-Level-1_3 -->
+    <h1 style="color: rgb(0, 119, 255)">JavaScript : if else statement</h1>
+    <h3>
+      Hier prüfen wir, ob das Alter größer als 18 ist oder nicht. Shisha rauchen
+      darf man nur, wenn man volljährig ist.
+    </h3>
+    <hr />
+    <form name="form1" action="#">
+      Geben Sie Ihr Alter ein:
+      <input type="text" name="text1" id="input" />
+      <input type="button" value="Alter" onclick="greaterThan()" />
+      <p class="result3"></p>
+    </form>
+    <!-- Conditionals-Level-2_2 -->
+    <form onsubmit="return false">
+      <h1>Luftqualität:</h1>
+      <input
+        onclick="checkAirQuality()"
+        type="range"
+        min="0"
+        max="150"
+        style="width: 20%"
+      />
+      <p class="health-concern"></p>
+      <p class="health-effect"></p>
+    </form>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
